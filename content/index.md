@@ -1,4 +1,3 @@
-```md
 # RadioGPT Notes
 
 Spațiu de lucru pentru **SRR**, **Model Operațional AI**, utilitare și experimente.
@@ -13,4 +12,3 @@ Spațiu de lucru pentru **SRR**, **Model Operațional AI**, utilitare și experi
 - [[Utilitare/Backlog|Backlog utilitare]]
 - [[Roadmap-30-zile|Roadmap 30 zile]]
 - [[00-Rutina-Zilnica|Rutina zilnică]]
-```
