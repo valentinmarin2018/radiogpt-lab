@@ -5,33 +5,63 @@
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>RadioGPT Notes</title>
 <style>
-body { font-family: Arial, sans-serif; max-width: 900px; margin: 40px auto; padding: 0 16px; line-height: 1.5; }
-h1 { margin-bottom: 8px; }
-.muted { color: #666; margin-top: 0; }
-ul { padding-left: 20px; }
-li { margin: 8px 0; }
-code { background: #f4f4f4; padding: 2px 6px; border-radius: 6px; }
+:root{
+--bg:#0b1020; --panel:#121a33; --text:#e8ecff; --muted:#9aa7d1; --acc:#6ea8fe; --acc2:#7ef0c5;
+}
+*{box-sizing:border-box}
+body{
+margin:0; font-family:Inter,Segoe UI,Arial,sans-serif;
+background:linear-gradient(180deg,#0b1020,#0d1429 35%,#0b1020);
+color:var(--text);
+}
+.wrap{max-width:1000px;margin:40px auto;padding:0 16px}
+.hero{background:var(--panel);border:1px solid #233057;border-radius:16px;padding:24px}
+h1{margin:0 0 8px;font-size:32px}
+.muted{color:var(--muted);margin:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-top:20px}
+.card{
+display:block;background:var(--panel);border:1px solid #233057;border-radius:14px;padding:16px;
+color:var(--text);text-decoration:none;transition:.18s transform,.18s border-color;
+}
+.card:hover{transform:translateY(-2px);border-color:var(--acc)}
+.tag{font-size:12px;color:var(--acc2);letter-spacing:.04em;text-transform:uppercase}
+.title{font-size:18px;margin:8px 0 4px}
+.desc{font-size:14px;color:var(--muted)}
+footer{margin:22px 0 8px;color:var(--muted);font-size:13px}
 </style>
 </head>
 <body>
+<div class="wrap">
+<section class="hero">
 <h1>RadioGPT Notes</h1>
-<p class="muted">Spațiu de lucru pentru SRR + utilitare + experimente.</p>
+<p class="muted">Hub de lucru pentru SRR, Model Operațional AI, utilitare și experimente.</p>
+</section>
 
-<h2>Navigare</h2>
-<ul>
-<li><a href="./SRR/Faza-0.md">SRR / Faza 0</a></li>
-<li><a href="./SRR/Model-Operational-AI.md">SRR / Model Operațional AI</a></li>
-<li><a href="./SRR/Documente-sursa.md">SRR / Documente sursă</a></li>
-<li><a href="./SRR/Decizii.md">SRR / Decizii</a></li>
-<li><a href="./Utilitare/Backlog.md">Utilitare / Backlog</a></li>
-<li><a href="./Roadmap-30-zile.md">Roadmap 30 zile</a></li>
-<li><a href="./SRR/Status-saptamanal.md">SRR / Status săptămânal</a></li>
-</ul>
+<section class="grid">
+<a class="card" href="./SRR/Faza-0.md">
+<div class="tag">SRR</div><div class="title">Faza 0</div><div class="desc">Pregătire și audit operațional.</div>
+</a>
+<a class="card" href="./SRR/Model-Operational-AI.md">
+<div class="tag">SRR</div><div class="title">Model Operațional AI</div><div class="desc">Cadru de guvernanță AI.</div>
+</a>
+<a class="card" href="./SRR/Documente-sursa.md">
+<div class="tag">SRR</div><div class="title">Documente sursă</div><div class="desc">Referințe și status versiuni.</div>
+</a>
+<a class="card" href="./SRR/Decizii.md">
+<div class="tag">SRR</div><div class="title">Decizii</div><div class="desc">Istoric decizii și motive.</div>
+</a>
+<a class="card" href="./Utilitare/Backlog.md">
+<div class="tag">UTILITARE</div><div class="title">Backlog</div><div class="desc">Idei prioritizate.</div>
+</a>
+<a class="card" href="./Roadmap-30-zile.md">
+<div class="tag">PLAN</div><div class="title">Roadmap 30 zile</div><div class="desc">Plan scurt și executabil.</div>
+</a>
+<a class="card" href="./SRR/Status-saptamanal.md">
+<div class="tag">STATUS</div><div class="title">Status săptămânal</div><div class="desc">Progres, blocaje, următorii pași.</div>
+</a>
+</section>
 
-<h2>Notă</h2>
-<p>
-Aceste linkuri deschid fișiere <code>.md</code> direct.
-Pasul următor (mai frumos) este să transformăm notele într-un site dedicat (Quartz).
-</p>
+<footer>notes.radiogpt.online · actualizare prin Git push</footer>
+</div>
 </body>
 </html>
