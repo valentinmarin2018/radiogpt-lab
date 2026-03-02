@@ -1,5 +1,3 @@
-## title: RadioGPT Notes
-
 # RadioGPT Notes
 
 Spațiu de lucru pentru **SRR**, **Model Operațional AI**, utilitare și experimente.
@@ -14,3 +12,9 @@ Spațiu de lucru pentru **SRR**, **Model Operațional AI**, utilitare și expe
 - [[Utilitare/Backlog|Backlog utilitare]]
 - [[Roadmap-30-zile|Roadmap 30 zile]]
 - [[00-Rutina-Zilnica|Rutina zilnică]]
+
+## Focus acum
+
+- Aliniere documente la terminologia **Model Operațional AI**
+- Clarificare fluxuri SRR
+- Prioritizare utilitare
