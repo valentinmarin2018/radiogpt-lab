@@ -13,15 +13,72 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Test Obsidian CLI Renamed.md",
+                "file": "SRR/Faza-0.md.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Test Obsidian CLI Renamed"
+              "title": "Faza-0.md"
+            }
+          },
+          {
+            "id": "f7690982b415f2a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SRR/Model-Operational-AI.md.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Model-Operational-AI.md"
+            }
+          },
+          {
+            "id": "5c73e33b2785b701",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Utilitare/Backlog.md.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Backlog.md"
+            }
+          },
+          {
+            "id": "06d54bcb475821b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SRR/Documente-sursa.md.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Documente-sursa.md"
+            }
+          },
+          {
+            "id": "98ad95309445f7e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SRR/Decizii.md.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Decizii.md"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "357331aa9cadf96b",
@@ -110,7 +167,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/Test Obsidian CLI Renamed.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +176,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Test Obsidian CLI Renamed"
+              "title": "Backlinks"
             }
           },
           {
@@ -129,12 +185,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inbox/Test Obsidian CLI Renamed.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Test Obsidian CLI Renamed"
+              "title": "Outgoing links"
             }
           },
           {
@@ -172,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inbox/Test Obsidian CLI Renamed.md",
+                "file": "Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Test Obsidian CLI Renamed"
+              "title": "Outline of Untitled"
             }
           }
         ]
@@ -199,10 +254,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "f28e9e33830ad814",
+  "active": "13cea465e22b7e09",
   "lastOpenFiles": [
-    "Welcome.md",
+    "SRR/Decizii.md.md",
+    "Untitled.md",
+    "SRR/Documente-sursa.md.md",
+    "Utilitare/Backlog.md.md",
+    "SRR/Model-Operational-AI.md.md",
+    "SRR/Faza-0.md.md",
+    "index.md.md",
     "Inbox/Test Obsidian CLI Renamed.md",
+    "Utilitare",
+    "SRR",
+    "index.html",
+    "Welcome.md",
     "Inbox/Test Obsidian CLI.md",
     "Inbox"
   ]
