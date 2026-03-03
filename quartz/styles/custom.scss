@@ -40,3 +40,35 @@ article h2 + ul > li a:hover {
 border-color: var(--secondary);
 transform: translateY(-1px);
 }
+:root {
+--radius: 14px;
+--shadow: 0 6px 24px rgba(0,0,0,.08);
+--accent: #3b82f6;
+}
+
+.page-title {
+letter-spacing: -0.02em;
+font-weight: 700;
+}
+
+article {
+max-width: 760px;
+margin: 0 auto;
+line-height: 1.75;
+}
+
+a {
+text-underline-offset: 3px;
+text-decoration-thickness: 1.5px;
+}
+
+.card, .note-card, .popover-hint {
+border-radius: var(--radius);
+box-shadow: var(--shadow);
+transition: transform .15s ease, box-shadow .15s ease;
+}
+
+.card:hover, .note-card:hover {
+transform: translateY(-2px);
+box-shadow: 0 10px 30px rgba(0,0,0,.12);
+}
