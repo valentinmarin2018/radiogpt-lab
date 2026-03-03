@@ -118,3 +118,20 @@ article h2 + ul,
 article h3 + ul {
 margin-top: 0.9rem;
 }
+/* === PAS 3: paleta vizibil diferita === */
+:root {
+--secondary: #2563eb; /* linkuri, accent principal */
+--tertiary: #7c3aed; /* hover/accente secundare */
+--highlight: #2563eb14; /* fundal link intern */
+--light: #fcfdff; /* fundal general mai curat */
+}
+
+:root[saved-theme="dark"] {
+--secondary: #60a5fa;
+--tertiary: #a78bfa;
+--highlight: #60a5fa22;
+--light: #0f1117;
+--dark: #f3f4f6;
+--darkgray: #d1d5db;
+--lightgray: #2a2f3a;
+}
